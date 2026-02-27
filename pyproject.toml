@@ -1,0 +1,11 @@
+[project]
+name = "duckdb-demo"
+version = "0.1.0"
+description = "DuckDB を使ったデータ分析デモ"
+requires-python = ">=3.9"
+dependencies = [
+    "duckdb>=1.4.4",
+    "duckdb-sqlalchemy>=1.4.4.3",
+    "pytz>=2025.2",
+    "sqlalchemy>=2.0.47",
+]
