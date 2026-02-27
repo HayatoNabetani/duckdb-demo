@@ -16,3 +16,5 @@ wheels/
 *.duckdb
 
 *.parquet
+
+.env

@@ -4,8 +4,12 @@ version = "0.1.0"
 description = "DuckDB を使ったデータ分析デモ"
 requires-python = ">=3.9"
 dependencies = [
+    "boto3>=1.35",
+    "python-dotenv>=1.0",
     "duckdb>=1.4.4",
     "duckdb-sqlalchemy>=1.4.4.3",
+    "fastapi>=0.115",
     "pytz>=2025.2",
     "sqlalchemy>=2.0.47",
+    "uvicorn>=0.32",
 ]

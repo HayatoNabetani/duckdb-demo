@@ -72,8 +72,8 @@ WHERE rep_subq.rn = 1) AS rep_filtered ON agg_subq.transition_url_id = rep_filte
     elapsed = time.perf_counter() - t0
     print(f"⏱ クエリ実行時間: {elapsed:.3f} 秒\n")
 
-    for result in results:
-        print(result)
+    # for result in results:
+    #     print(result)
 
     con.close()
     print("\n" + "=" * 60)
