@@ -29,6 +29,9 @@ def get_r2_parquet_key() -> str:
 # Cloudflare API（必要に応じて）
 CLOUDFLARE_EMAIL = os.getenv("CLOUDFLARE_EMAIL", "")
 CLOUDFLARE_API_KEY = os.getenv("CLOUDFLARE_API_KEY", "")
+CLOUDFLARE_ZONE_ID = os.getenv("CLOUDFLARE_ZONE_ID", "")
+# R2 バケットの公開 CDN URL（例: https://assets.example.com）
+CDN_BASE_URL = os.getenv("CDN_BASE_URL", "")
 
 # ローカルキャッシュ（R2 から落としたファイル・DuckDB）
 CACHE_DIR = Path(os.getenv("CACHE_DIR", str(ROOT / "data")))

@@ -12,4 +12,6 @@ dependencies = [
     "pytz>=2025.2",
     "sqlalchemy>=2.0.47",
     "uvicorn>=0.32",
+    "ipykernel>=6.31.0",
+    "requests>=2.32.5",
 ]

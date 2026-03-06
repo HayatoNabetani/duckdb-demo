@@ -1,0 +1,21 @@
+{
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python": {
+          "pythonPath": "/Users/hnabetani/Desktop/Python/duckdb-demo/.venv/bin/python",
+          "venvPath": "/Users/hnabetani/Desktop/Python/duckdb-demo",
+          "venv": ".venv",
+        },
+        "pyright": {
+          "pythonVersion": "3.9",
+        },
+      },
+    },
+  },
+  "languages": {
+    "Python": {
+      "language_servers": ["pyright", "ruff", "!pylsp"],
+    },
+  },
+}
